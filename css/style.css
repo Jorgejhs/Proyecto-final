@@ -33,18 +33,21 @@ h1{
     margin: 0 10rem;
 
 }
+
 .navbar{
     background-color: rgba(52, 57, 59, 0.918);
     box-shadow: 0 4px 4px black;
     position: sticky;
     top: 1px;
 }
+
 .navbar-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
 }
+
 .navbar-items{
     padding: 1rem;
     text-transform: uppercase;
@@ -61,12 +64,14 @@ h1{
     padding: 1rem;
     
 }
+
 .navbar-items:hover{
     transform: scale(1.2);
     transition: all 0.6s;
     background-color: rgb(59, 54, 48);
     
 }
+
 .contenedor{
     max-width: 1400px;
     margin: 2rem;
@@ -81,59 +86,59 @@ h3{
     font-size: 2rem;
     text-align: center;
 }
+
 article{
     padding: 1rem;
-
 }
+
 .img-conteiner{
     padding: 1rem;
     margin: 1rem 0;
     width: 400px;
     height: 500px;
 }
+
 .img-conteiner:hover{
     transform: scale(1.2);
     transition: all 0.4s;
 }
+
 aside{
     margin: 1rem;
 }
+
 .aside-img{
     width: 150px;
     height: 150px;
     padding: 1rem;
     border: solid 2px black;
     border-radius: 5%;
-
 }
+
 .aside-img:hover{
     transform: scale(1.2);
     transition: all 0.4s
 }
-.cards-conteiner{
+
+.contacto-img{
+    max-width: 50px;
+    margin: 2rem 0;
+    list-style: none;
+}
+
+.contacto-img:hover{
+    transform: scale(1.2);
+    transition: all 0.4s   
+}
+
+.contacto-ul{
     display: flex;
-    max-width: 1200px;
-    background-color: rgb(124, 116, 119);
-    margin: auto;
-    box-shadow: 2 4 6px;
-    border-radius: 10px;
-    align-items: center;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    padding: 2rem;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center
+
 }
-.card{
-    margin: 1rem;
-    background-color: white;
-    border-radius: 8px;
-    
-}
-.card-img{
-    padding: 0 2rem;
-    border-radius: 8px;
-    box-shadow: 2 2 6px black;
-}
-.card h5{
-    padding: 1rem;
-    margin: 1rem;
+
+.contacto-h4{
+    font-size: 1.5rem;
 }
