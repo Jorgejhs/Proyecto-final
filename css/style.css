@@ -78,7 +78,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center; 
 }
 
 h3{
@@ -93,14 +93,15 @@ article{
 
 .img-conteiner{
     padding: 1rem;
+    border-radius: 30px;
     margin: 1rem 0;
     width: 400px;
     height: 500px;
 }
 
 .img-conteiner:hover{
-    transform: scale(1.2);
-    transition: all 0.4s;
+    transform: scale(1.05);
+    transition: all 0.6s;
 }
 
 aside{
@@ -115,30 +116,38 @@ aside{
     border-radius: 5%;
 }
 
-.aside-img:hover{
-    transform: scale(1.2);
-    transition: all 0.4s
-}
-
 .contacto-img{
-    max-width: 50px;
     margin: 2rem 0;
     list-style: none;
+    text-align: center;
 }
 
 .contacto-img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.4s   
 }
 
 .contacto-ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
-    text-align: center
-
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5rem;
 }
 
-.contacto-h4{
-    font-size: 1.5rem;
+
+.masinfoparrafo{
+    justify-content: center;
+}
+.art-tabla{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tabla-art{
+
+    width: 300px;
+    padding: 1rem;
 }
