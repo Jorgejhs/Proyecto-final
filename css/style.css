@@ -60,7 +60,7 @@ h1{
 
 .items-links{
     text-decoration: none;
-    color: rgb(245, 236, 229);
+    color: rgb(240, 240, 240);
     padding: 1rem;
     
 }
@@ -126,7 +126,7 @@ aside{
 
 .contacto-img:hover{
     transform: scale(1.1);
-    transition: all 0.4s   
+    transition: all 0.4s;
 }
 
 .contacto-ul{
@@ -138,7 +138,6 @@ aside{
     align-items: center;
     margin: 5rem;
 }
-
 
 .masinfoparrafo{
     justify-content: center;
@@ -152,4 +151,18 @@ aside{
 
     width: 300px;
     padding: 1rem;
+}
+.consultas{
+    padding: 1rem;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 6px;
+    border-radius: 20px;
+    background-color: rgb(143, 139, 139);
+    box-shadow: 2px 4px 6px;
+}
+.consultas:hover{
+    transform: scale(1.2);
+    transition: all 0.6s;
+    background-color: rgb(214, 209, 209);
 }
