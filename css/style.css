@@ -9,7 +9,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url("../imagenes/Finca\ nieve.jpg");
 
 
@@ -91,7 +91,7 @@ img{ width: 100px
 
 .contenedor{
     max-width: 1400px;
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -105,6 +105,10 @@ h3{
     text-align: center;
     color: rgb(0, 0, 0);
 }
+h4{
+    color:white;
+
+}
 .titulo-index{
     font-size: 3em;
     color: rgb(200, 220, 250);
@@ -112,12 +116,13 @@ h3{
 
 article{
     padding: 1rem;
+    margin-top: 0.5rem;
+    
 }
 
 .img-conteiner{
-    padding: rem;
     border-radius: 20px;
-    margin: 1rem 0;
+    margin: 2rem 2rem;
     width: 220px;
     height: 300px;
     box-shadow: 4px 4px 6px black;
@@ -131,17 +136,25 @@ article{
 }
 
 aside{
-    margin: 2rem 1rem;
-    padding-top: 3rem;
+
+    margin: 1rem 1rem;
+    padding: 1rem;
     
+}
+.vinos-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px;
+    /*border: solid 2px red;*/
 }
 
 .aside-img{
     width: 150px;
     height: 150px;
-    border-radius: 5%;
-    box-shadow: 2px 2px 6px #000;
-    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px black;
+
 }
 
 .contacto-img{
@@ -174,6 +187,16 @@ aside{
     padding: 1em;
     
 }
+p{
+    text-justify: auto; 
+    margin: 1rem;
+}
+#mas-info-enologos{
+    font-size: 1.5em;
+    padding: 1rem;
+    font-style: oblique;
+    font-weight: bold;
+}
 .art-tabla{
     display: flex;
     justify-content: space-evenly;
@@ -182,10 +205,10 @@ aside{
 .tabla-art{
     font-size: 1.2em;
     width: 300px;
-    padding: 0;
-    border: solid 3px black;
-    background-color: rgba(221, 242, 245, 0.90);
-    border-radius: 5px;
+    padding: 1rem;
+    background-color: rgba(221, 242, 245, 0.8);
+    border-radius: 10px;
+
 }
 .consultas{
     padding: 1rem;
@@ -198,4 +221,10 @@ aside{
 }
 .consultas:hover{
     background-color: rgb(200, 220, 250);
+}
+#parrafo-footer{
+    font-size: 1em;
+    padding: 1rem;
+    color: white;
+    text-align: left;
 }
