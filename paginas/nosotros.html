@@ -19,7 +19,7 @@
         </nav>
         <section class="nosotros">
         <article>
-            <p class="consultas"> Cuales son tus uvas favoritas? </p> <!-- <p class="consultas"> Contanos tus preferencias </p> -->
+            <p class="consultas"> Contanos que variedad de uva es tu favorita. </p>
             
             <form class="form">
                 <input type="text" placeholder="Nombre"> <br><br>
@@ -30,7 +30,7 @@
                  <input type="radio" name="sexo" value="masculino"> Masculino
                 <input  type="radio" name="sexo" value="Femenino"> Femenino             <input type="radio" name="sexo" value="No binario"> No binario <br><br><br>
                 Cual es la uva de tu preferencia?
-                <select>
+                <select class="uvas">
                     <option value="malbec"> Malbec </option>
                     <option value="cab suavignon"> Cabernet Suavignon </option>
                     <option value="cabernet franc"> Cabernet Franc </option>
@@ -38,8 +38,8 @@
                     <option value="chardonay"> Chardonay </option>
                     <option value="chennin"> Chennin </option>    
                 </select><br><br>
-                <input type="reset" value="limpiar">
-                <input type="submit" value="enviar">    
+                <input type="reset" value="reset" class="env-res">
+                <input type="submit" value="enviar" class="env-res" id="enviar">    
             </form>
             <p class="consultas"> Contactanos tus consultas no molestan </p>
             <ul class="contacto-ul">
