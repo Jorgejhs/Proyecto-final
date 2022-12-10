@@ -17,8 +17,31 @@
                 </li>
             </ul>   
         </nav>
+        <section class="nosotros">
         <article>
-            <p class="consultas"> Dejanos tu consulta </p>
+            <p class="consultas"> Cuales son tus uvas favoritas? </p> <!-- <p class="consultas"> Contanos tus preferencias </p> -->
+            
+            <form class="form">
+                <input type="text" placeholder="Nombre"> <br><br>
+                <input type="text" placeholder="Apellido"> <br><br>
+                <input type="text" placeholder="Edad" pattern="[0-9]+" maxlength="2"> <br><br>
+                <label for="Sexo">  Sexo </label>
+                <br>
+                 <input type="radio" name="sexo" value="masculino"> Masculino
+                <input  type="radio" name="sexo" value="Femenino"> Femenino             <input type="radio" name="sexo" value="No binario"> No binario <br><br><br>
+                Cual es la uva de tu preferencia?
+                <select>
+                    <option value="malbec"> Malbec </option>
+                    <option value="cab suavignon"> Cabernet Suavignon </option>
+                    <option value="cabernet franc"> Cabernet Franc </option>
+                    <option value="pinot"> Pinot </option>
+                    <option value="chardonay"> Chardonay </option>
+                    <option value="chennin"> Chennin </option>    
+                </select><br><br>
+                <input type="reset" value="limpiar">
+                <input type="submit" value="enviar">    
+            </form>
+            <p class="consultas"> Contactanos tus consultas no molestan </p>
             <ul class="contacto-ul">
                 <li id="whatsapp" class="contacto-img"> <a href="https://wa.me/543364409009"><img src="../imagenes/WatsApp.png" alt="whatsapp"></a><h4  >3364-409009</h4>
                 </li>
@@ -28,6 +51,7 @@
                 </li>
             </ul>      
         </article>
+        </section>
         <script src="../js/proy final.js"></script>    
     </body>
 </html>
