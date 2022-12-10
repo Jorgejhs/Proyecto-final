@@ -75,8 +75,7 @@ img{ width: 100px
     text-decoration: none;
     color: rgb(13, 13, 13);
     padding: 1rem;
-    align-items: center
-    
+    align-items: center    
 }
 
 .items-links:hover{
@@ -110,13 +109,12 @@ h4{
 }
 
 article{
-    padding: 1rem;
-    margin-top: 0.5rem;    
+    padding: 1rem;   
 }
 
 .img-conteiner{
     border-radius: 20px;
-    margin: 2rem 2rem;
+    margin: 1rem 3rem;
     width: 220px;
     height: 300px;
     box-shadow: 4px 4px 6px black;
@@ -243,7 +241,6 @@ p{
     margin: 0.2rem 1rem;
     font-style: oblique;
     font-size:0.8em;
-    /*border: 2px solid red;*/
 }
 
 #parrafo-footer{
