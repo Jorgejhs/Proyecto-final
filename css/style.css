@@ -86,7 +86,7 @@ img{ width: 100px
     max-width: 1400px;
     margin: 1rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -109,7 +109,7 @@ h4{
 }
 
 article{
-    padding: 1rem;   
+    padding: 1rem;  
 }
 
 .img-conteiner{
@@ -129,7 +129,7 @@ article{
 aside{
 
     margin: 1rem 1rem;
-    padding: 3.3rem;
+    padding: 8rem;
     
 }
 .vinos-img{
