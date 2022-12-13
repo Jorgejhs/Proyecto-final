@@ -211,7 +211,6 @@ p{
     padding: 0.1rem;
     font-size: 1.5em;
     text-align: center;
-    text-shadow: 2px 2px 4px;
     border-radius: 2px;
     background-color: rgb(200, 220, 250);
     box-shadow: 2px 4px 6px;
@@ -220,8 +219,6 @@ p{
 
 .form{
     box-shadow: 2px 2px 4px;
-    /*border: 2px solid red;*/
-    /*color: rgb(200, 220, 250);*/
     color: white;
     margin: 1rem 5rem;
     flex-wrap: wrap;
@@ -241,6 +238,15 @@ p{
     margin: 0.2rem 1rem;
     font-style: oblique;
     font-size:0.8em;
+}
+.video{
+    width: 470px;
+    height: 260px;
+    border-radius: 20px;
+}
+.video-finca{
+    width: 100px;
+    height: 160px;
 }
 
 #parrafo-footer{
