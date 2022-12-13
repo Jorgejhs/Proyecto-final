@@ -129,7 +129,7 @@ article{
 aside{
 
     margin: 1rem 1rem;
-    padding: 1rem;
+    padding: 3.3rem;
     
 }
 .vinos-img{
@@ -240,8 +240,8 @@ p{
     font-size:0.8em;
 }
 .video{
-    width: 95vp;
-    /*height: 95vp;*/
+    width: 300px;
+    margin: 1.5rem;
     border-radius: 20px;
     box-shadow: 4px 4px 6px black;
 }
